@@ -44,8 +44,9 @@ CREATE TABLE `productos` (
 --
 
 INSERT INTO `productos` (`id`, `nombre`, `precio`, `stock`, `descripcion`, `categoria`, `cantidad`, `idprov`) VALUES
-(1, 'John Smith', 123, 1, 'Ilmu Komputer', 'Electronica', 4, 0),
-(3, 'Laptop', 1280, 121, '1212', 'Electronica', 1, 111);
+(1, 'Celular', 123, 1, '2345', 'Electronica', 4, 3665),
+(2, 'Laptop', 1280, 121, '1212', 'Electronica', 1, 111),
+(3, 'Mesa', 5555, 1, '2365', 'Mobiliario', 6, 654);
 
 --
 -- Índices para tablas volcadas
